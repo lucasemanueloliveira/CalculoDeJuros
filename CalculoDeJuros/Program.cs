@@ -19,6 +19,7 @@ class Program
 
         DateTime hoje = DateTime.Today;
 
+        //Verifica se a data é posterior ao dia em que está sendo informado o valor
         int diasAtraso = (hoje - vencimento).Days;
 
         if (diasAtraso <= 0)
